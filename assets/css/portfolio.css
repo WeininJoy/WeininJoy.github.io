@@ -75,13 +75,6 @@ body {
 	overflow: hidden;
 }
 
-#header::before {
-	content: '';
-	position: absolute;
-	inset: 0;
-	background: rgba(10, 10, 30, 0.62);
-}
-
 #header > * {
 	position: relative;
 	z-index: 1;
@@ -90,7 +83,7 @@ body {
 .profile-image {
 	margin: 0 auto 20px;
 	width: 180px;
-	height: 180px;
+	height: 240px;
 }
 
 .profile-image img {
@@ -106,17 +99,20 @@ body {
 	font-weight: 600;
 	margin-bottom: 10px;
 	color: #ffffff;
+	text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
 }
 
 #header .title {
-	font-size: 18px;
-	color: rgba(255, 255, 255, 0.85);
-	margin-bottom: 5px;
+	font-size: 22px;
+	color: rgba(255, 255, 255, 0.95);
+	margin-bottom: 14px;
+	text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
 }
 
 #header .affiliation {
-	font-size: 16px;
-	color: rgba(255, 255, 255, 0.7);
+	font-size: 20px;
+	color: rgba(255, 255, 255, 0.85);
+	text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
 }
 
 /* Main Content */
